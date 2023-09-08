@@ -1,10 +1,11 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.utils import timezone
+
 # Create your views here.
 
-github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"  # Replace with your GitHub URL
-github_repo_url = "https://github.com/username/repo"  # Replace with your GitHub URL
+github_file_url = "https://github.com/dfamiliarstranger/Zuri-Hng/blob/main/manage.py"  # Replace with your GitHub URL
+github_repo_url = "https://github.com/dfamiliarstranger/Zuri-Hng"  
 
 def get_info(request):
     slack_name = request.GET.get('slack_name')
