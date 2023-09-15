@@ -11,6 +11,7 @@ This is my Zuri Hng solution folder for task 1 and Task 2
 - [Running the API](#running-the-api)
 - [API Endpoints](#api-endpoints)
 - [Usage](#usage)
+- [UML Diagram](#uml-diagram)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -115,6 +116,10 @@ To update the details of a person, make a PUT request to `/<str:identifier>/` wi
 
 ### Removing a Person
 To remove a person, make a DELETE request to `/<str:identifier>/`, where `<str:identifier>` is the person's identifier.
+
+### UML Diagram
+![UML Diagram](docs/uml/UMl%20TASK2.drawio.pnguml_diagram.png)
+
 
 ## Contributing
 Contributions are welcome! Please fork this repository and create a pull request.
