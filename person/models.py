@@ -9,7 +9,7 @@
 from django.db import models
 
 class Person(models.Model):
-    name = models.CharField(max_length=255, unique=True)  # Example field definition
+    Name = models.CharField(max_length=255, unique=True)  # Example field definition
 
 
     def __str__(self):

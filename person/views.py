@@ -84,7 +84,7 @@ class PersonDetailView(generics.RetrieveUpdateDestroyAPIView):
         else:
             # If it's not an integer, assume it's a name and try to retrieve by name
             # Correct query using the 'name' field
-            person = Person.objects.filter(Q(first_name__iexact=identifier)).first()
+            person = Person.objects.filter(Q(Name__iexact=identifier)).first()
 
             if not person:
                 raise Http404('Person not found')
