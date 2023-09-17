@@ -17,7 +17,7 @@ DEBUG = False
 
 
 # ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['https://task-two-50om.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['task-two-50om.onrender.com']
 
 
 
