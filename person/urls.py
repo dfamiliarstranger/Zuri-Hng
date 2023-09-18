@@ -12,6 +12,6 @@ from django.urls import path
 from .views import PersonCreateView, PersonDetailView
 
 urlpatterns = [
-    path('create/', PersonCreateView.as_view(), name='person-create'),
-    path('<str:identifier>/', PersonDetailView.as_view(), name='person-detail'),
+    path('api/', PersonCreateView.as_view(), name='person-create'),
+    path('api/<str:identifier>/', PersonDetailView.as_view(), name='person-detail'),
 ]
